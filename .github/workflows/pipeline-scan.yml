@@ -21,7 +21,7 @@ jobs:
       actions: read # only needed for private repos
     steps:
       - name: Checkout repository
-        uses: actions/checkout@03af241587ab470b23340e354be5682ba0850474  #this is the latest branch
+        uses: actions/checkout@sha256:32731ff5b4ccc8f63eb0f1480847373670e817711fda739ffce656eaa98b1dfe #this is the latest branch
         with:
           persist-credentials: false
 
